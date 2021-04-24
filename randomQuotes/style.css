@@ -1,0 +1,54 @@
+*{
+    margin: 0vh;
+}
+html body{
+    height: 100%;  
+}
+body{
+    background-color: rgb(176, 158, 153);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+#quotes-container{
+    width: 60%;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+#btn{
+    background-color: #2d7266;
+    color:white;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top:5%;
+    margin-bottom: 3%;
+    border: none;
+    box-shadow: 1px 1px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn:hover{
+    background-color: rgb(176, 158, 153);
+    color: black;
+}
+#sentence{
+    margin: 5%;
+    color: #6c757d;
+    font-size: 2rem;
+}
+i{
+    font-size: 4rem;
+}
+#name{
+    margin-left: 55%;
+    color: #2d7266;
+}
