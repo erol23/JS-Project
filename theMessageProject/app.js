@@ -13,12 +13,8 @@ function display(){
 button.addEventListener('click', (e) => {
     e.preventDefault();
     lastMessage.style = messageStyle();
-    if(msg.value == ''){
-        lastMessage.style.color = 'red'
-        lastMessage.style.backgroundColor = 'rgb(173, 102, 102)'
-        lastMessage.textContent = 'please enter a message!!'.toUpperCase();
-        setTimeout(display, 2000);
-    }else if (msg.value == ' '){
+    console.log(msg.value);
+    if(msg.value.trim() == ''){
         lastMessage.style.color = 'red'
         lastMessage.style.backgroundColor = 'rgb(173, 102, 102)'
         lastMessage.textContent = 'please enter a message!!'.toUpperCase();
