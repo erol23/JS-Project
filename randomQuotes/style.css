@@ -16,6 +16,12 @@ html body{
     width: 60%;
     margin: auto;
     background-color:rgba(255, 255, 255, 0.5);
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
 }
 #btn{
     background-color: #2d7266;
